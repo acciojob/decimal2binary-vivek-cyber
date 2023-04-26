@@ -1,5 +1,11 @@
-function threeSum(arr, target) {
-// write your code here
+function threeSum(a) {
+var binary = '';
+  while (a>0)
+   {
+binary = (a%2) + binary;
+    a = Math.floor(a/2);
+     }
+return binary;
   
 }
 
