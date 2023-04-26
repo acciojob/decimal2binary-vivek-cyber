@@ -5,6 +5,7 @@ var binary = '';
 binary = (a%2) + binary;
     a = Math.floor(a/2);
      }
+	console.log(binary)
 return binary;
   
 }
